@@ -1,0 +1,35 @@
+*{
+    margin: 0 auto;
+}
+.background{
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(circle at  30% 100%, #fed373 9%, #f15245 30%, #d92e7f 62%, #515ecf 85%, #9b36b7);
+    border-radius: 20%;
+}
+.frame{
+    width: 300px;
+    height: 300px;
+    border: 25px solid rgb(255, 255, 255);
+    border-radius: 20%;
+    position: relative;
+    top: 27px;
+
+}
+.cirkle{
+    width: 100px;
+    height: 100px;
+    border: 25px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    position: relative;
+    top: 80px;
+}
+.mini-cirkle{
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 220px;
+    left: 220px;
+}
